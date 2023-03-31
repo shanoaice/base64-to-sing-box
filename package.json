@@ -1,0 +1,11 @@
+{
+  "name": "base64-to-sing-box",
+  "description": "Convert a base64 subscription to sing-box configuration",
+  "main": "index.mjs",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@3.5.0",
+  "devDependencies": {
+    "rome": "^12.0.0"
+  }
+}
