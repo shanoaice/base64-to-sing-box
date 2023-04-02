@@ -1,11 +1,19 @@
 {
   "name": "base64-to-sing-box",
-  "description": "Convert a base64 subscription to sing-box configuration",
+  "description": "Convert a base64 VMess subscription to sing-box configuration",
   "main": "index.mjs",
   "license": "MIT",
   "private": true,
   "packageManager": "yarn@3.5.0",
   "devDependencies": {
     "rome": "^12.0.0"
+  },
+  "bin": "index.mjs",
+  "dependencies": {
+    "cac": "^6.7.14",
+    "got": "^12.6.0"
+  },
+  "scripts": {
+    "start": "node index.mjs"
   }
 }
