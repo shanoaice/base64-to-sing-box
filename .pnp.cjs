@@ -30,7 +30,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["cac", "npm:6.7.14"],\
             ["got", "npm:12.6.0"],\
-            ["rome", "npm:12.0.0"]\
+            ["rome", "npm:12.0.0"],\
+            ["typescript", "patch:typescript@npm%3A5.0.3#~builtin<compat/typescript>::version=5.0.3&hash=85af82"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -124,7 +125,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["base64-to-sing-box", "workspace:."],\
             ["cac", "npm:6.7.14"],\
             ["got", "npm:12.6.0"],\
-            ["rome", "npm:12.0.0"]\
+            ["rome", "npm:12.0.0"],\
+            ["typescript", "patch:typescript@npm%3A5.0.3#~builtin<compat/typescript>::version=5.0.3&hash=85af82"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -341,6 +343,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rometools/cli-linux-x64", "npm:12.0.0"],\
             ["@rometools/cli-win32-arm64", "npm:12.0.0"],\
             ["@rometools/cli-win32-x64", "npm:12.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["typescript", [\
+        ["patch:typescript@npm%3A5.0.3#~builtin<compat/typescript>::version=5.0.3&hash=85af82", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-3de7333024-5580367025.zip/node_modules/typescript/",\
+          "packageDependencies": [\
+            ["typescript", "patch:typescript@npm%3A5.0.3#~builtin<compat/typescript>::version=5.0.3&hash=85af82"]\
           ],\
           "linkType": "HARD"\
         }]\
