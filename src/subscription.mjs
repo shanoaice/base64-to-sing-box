@@ -46,7 +46,7 @@ export function convertBase64ToSingBox(base64Sub, extraConfig) {
 						type: 'vmess',
 						server: content.add,
 						server_port: content.port,
-						tcp_fast_open: callOrReturn(extraConfig.tcpFastOpen),
+						tcp_fast_open: callOrReturn(extraConfig.outbounds.tcpFastOpen),
 						uuid: content.id,
 						security: content.scy || 'auto',
 						alter_id: content.aid || 0,
