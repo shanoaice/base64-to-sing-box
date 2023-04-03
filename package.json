@@ -6,6 +6,7 @@
   "private": true,
   "packageManager": "yarn@3.5.0",
   "devDependencies": {
+    "json5": "^2.2.3",
     "rome": "^12.0.0",
     "typescript": "^5.0.3"
   },

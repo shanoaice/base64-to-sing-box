@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["cac", "npm:6.7.14"],\
             ["got", "npm:12.6.0"],\
+            ["json5", "npm:2.2.3"],\
             ["rome", "npm:12.0.0"],\
             ["typescript", "patch:typescript@npm%3A5.0.3#~builtin<compat/typescript>::version=5.0.3&hash=85af82"]\
           ],\
@@ -125,6 +126,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["base64-to-sing-box", "workspace:."],\
             ["cac", "npm:6.7.14"],\
             ["got", "npm:12.6.0"],\
+            ["json5", "npm:2.2.3"],\
             ["rome", "npm:12.0.0"],\
             ["typescript", "patch:typescript@npm%3A5.0.3#~builtin<compat/typescript>::version=5.0.3&hash=85af82"]\
           ],\
@@ -247,6 +249,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/json-buffer-npm-3.0.1-f8f6d20603-9026b03edc.zip/node_modules/json-buffer/",\
           "packageDependencies": [\
             ["json-buffer", "npm:3.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["json5", [\
+        ["npm:2.2.3", {\
+          "packageLocation": "./.yarn/cache/json5-npm-2.2.3-9962c55073-2a7436a933.zip/node_modules/json5/",\
+          "packageDependencies": [\
+            ["json5", "npm:2.2.3"]\
           ],\
           "linkType": "HARD"\
         }]\
