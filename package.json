@@ -2,7 +2,7 @@
   "name": "base64-to-sing-box",
   "description": "Convert a base64 VMess subscription to sing-box configuration",
   "main": "index.mjs",
-  "license": "MIT",
+  "license": "BlueOak-1.0.0",
   "private": true,
   "packageManager": "yarn@3.5.0",
   "devDependencies": {
