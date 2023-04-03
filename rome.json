@@ -6,7 +6,8 @@
 		"enabled": true,
 		"rules": {
 			"recommended": true
-		}
+		},
+    "ignore": [".pnp.cjs"]
 	},
   "javascript": {
     "formatter": {
