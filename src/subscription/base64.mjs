@@ -1,5 +1,5 @@
 import got from 'got'
-import { callOrReturn } from './utils.mjs'
+import { callOrReturn } from '../utils.mjs'
 
 function paseBase64Sub(base64) {
 	return Buffer.from(base64, 'base64')
