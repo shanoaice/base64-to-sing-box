@@ -1,6 +1,6 @@
 # Base64 Subscription to sing-box converter
 
-English | [中文](./README.ZH.md)
+English | [中文](./README.zh.md)
 
 This is a simple converter that converts a VMess Base64 subscription to sing-box configuration file.
 
